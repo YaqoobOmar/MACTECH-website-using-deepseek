@@ -1,0 +1,27 @@
+/* Custom Styles */
+body {
+    font-family: Arial, sans-serif;
+    padding-top: 56px; /* Offset for fixed navbar */
+  }
+  
+  .hero-section {
+    background: url('images/hero-bg.jpg') no-repeat center center/cover;
+    padding: 150px 0;
+  }
+  
+  .logo {
+    width: 150px;
+    height: auto;
+  }
+  
+  .card {
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  footer {
+    background-color: #343a40;
+  }
